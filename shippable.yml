@@ -28,6 +28,8 @@ integrations:
   notifications:
     - integrationName: slack-int
       type: slack
+      recipients:
+        - "#tutorials"
       branches:
         only:
           - master
